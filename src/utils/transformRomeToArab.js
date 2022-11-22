@@ -9,7 +9,6 @@ export const transformRomeToArab = (str) => {
 				roman[arr[i + 1]],
 				roman[arr[i + 2]],
 			];
-
 			return b > a ? r - a : r + a;
 		}, 0);
 };
